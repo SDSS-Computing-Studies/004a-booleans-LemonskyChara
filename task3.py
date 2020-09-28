@@ -17,3 +17,14 @@
 # "2" : The number is 100 or a number up to 1000 
 # "1" : The number is 10 or a number up to 100 
 # "0" : The number is 0 or a number up to 100 
+
+a = input("The number is: ")
+a = int(a)
+if a >= 1000:
+    print("The number is equal to 1000 or is larger than 1000")
+elif 100 <= a < 1000:
+    print("The number is 100 or a number up to 1000")
+elif 10 <= a < 100:
+    print("The number is 10 or a number up to 100")
+elif 0 <= a < 10:
+    print("The number is 0 or a number up to 10")
