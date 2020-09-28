@@ -11,7 +11,7 @@
 # - "negative"
 # - "zero"
 
-a = input("The number is: ")
+a = input("number")
 a = int(a)
 if a > 0:
     print("positive")
