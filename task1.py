@@ -12,7 +12,7 @@
 # "The number is smaller than 100"
 # "The number is 100"
 
-Number = input("The number is: ")
+Number = input("number")
 b = 100
 number = int(Number)
 if number > b:
