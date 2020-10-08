@@ -13,18 +13,16 @@
 # - "that is an acute triangle"
 # - "that is an obtuse triangle"
 
-a = input("One side is ")
-b = input("One side is ")
-c = input("The hypotenuse is ")
-a = float(a)
-b = float(b)
-c = float(c)
-import math
-c2 = math.sqrt(a ** 2 + b ** 2)
+a = float(input("One side is "))
+b = float(input("One side is "))
+c = float(input("The hypotenuse is "))
 
-if 0 <= c2 - c <= 0.02:
-    print("that is a right triangle")
-elif c2 -c > 0.02:
+import math
+d = math.sqrt(a ** 2 + b ** 2)
+
+if 0 <= d - c <= 0.02:
     print("that is an acute triangle")
-elif c2 -c < 0:
+elif d -c > 0.02:
     print("that is an obtuse triangle")
+elif d -c < 0:
+    print("that is a right triangle")
