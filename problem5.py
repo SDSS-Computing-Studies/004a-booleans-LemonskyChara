@@ -15,7 +15,6 @@
 # Outputs:
 # - "the equation can be factored"
 # - "the equation can not be factored"
-
 a = input("a is ")
 b = input("b is ")
 c = input("c is ")
@@ -31,5 +30,4 @@ import math
 
 if R < 0:
     print("the equation can not be factored")
-elif math.sqrt(R) == int(math.sqrt(R)):
-    print("the equation can be factored")
+else:
