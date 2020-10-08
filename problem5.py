@@ -15,6 +15,7 @@
 # Outputs:
 # - "the equation can be factored"
 # - "the equation can not be factored"
+
 a = input("a is ")
 b = input("b is ")
 c = input("c is ")
@@ -24,11 +25,12 @@ c = float(c)
 
 R = b ** 2 - 4 * a * c
 
-R = float (R)
 
 import math
 
 if R < 0:
     print("the equation can not be factored")
-else:
+elif math.sqrt(R) % 1 == 0:
     print("the equation can be factored")
+else:
+    print("the equation can not be factored")
