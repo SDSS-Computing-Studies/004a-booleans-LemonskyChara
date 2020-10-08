@@ -11,7 +11,7 @@
 # - "negative"
 # - "zero"
 
-a = input("number")
+a = float(input("number"))
 if a > 0:
     print("positive")
 if a < 0:
