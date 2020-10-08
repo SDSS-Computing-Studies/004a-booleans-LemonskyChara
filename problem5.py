@@ -31,3 +31,4 @@ import math
 if R < 0:
     print("the equation can not be factored")
 else:
+    print("the equation can be factored")
