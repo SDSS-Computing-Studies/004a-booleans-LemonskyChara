@@ -21,10 +21,10 @@
 a = float(input("a number"))
 
 if a >= 1000:
-    print("The number is equal to 1000 or is larger than 1000")
+    print("3")
 elif 100 <= a < 1000:
-    print("The number is 100 or a number up to 1000")
+    print("2")
 elif 10 <= a < 100:
-    print("The number is 10 or a number up to 100")
+    print("1")
 elif 0 <= a < 10:
-    print("The number is 0 or a number up to 10")
+    print("0")
