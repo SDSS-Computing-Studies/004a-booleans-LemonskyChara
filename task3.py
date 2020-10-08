@@ -19,7 +19,7 @@
 # "0" : The number is 0 or a number up to 100 
 
 a = input("a number")
-a = int(a)
+a = float(a)
 if a >= 1000:
     print("The number is equal to 1000 or is larger than 1000")
 elif 100 <= a < 1000:
