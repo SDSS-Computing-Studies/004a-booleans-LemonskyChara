@@ -12,7 +12,6 @@
 # - "zero"
 
 a = input("number")
-a = int(a)
 if a > 0:
     print("positive")
 if a < 0:
